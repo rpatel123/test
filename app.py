@@ -275,8 +275,7 @@ def search():
         response = exa.search(
             query=query,
             category="people",
-            num_results=10,
-            use_autoprompt=True
+            num_results=10
         )
 
         results = []

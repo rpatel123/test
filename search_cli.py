@@ -24,8 +24,7 @@ def search_profiles(query: str, num_results: int = 10):
         response = exa.search(
             query=query,
             category="people",
-            num_results=num_results,
-            use_autoprompt=True
+            num_results=num_results
         )
 
         if not response.results:
